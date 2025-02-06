@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GzBZqdsC0vk=",
+  "dgSpecHash": "CSYwUjhU/LU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\App\\DAL\\DAL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
