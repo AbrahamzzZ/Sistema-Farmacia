@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\App\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\Model\\Model.csproj",
+      "projectPath": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\App\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\herma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\Model\\obj\\",
+      "outputPath": "C:\\Users\\herma\\source\\repos\\SistemaFarmacia\\App\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
