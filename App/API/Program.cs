@@ -16,6 +16,14 @@ namespace API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.InyectarDependencia(builder.Configuration);
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("NuevaPolitica", app =>
+                {
+                    app.AllowAnyOrigin().AllowAnyOrigin().AllowAnyMethod();
+
+                });
+            });
 
             var app = builder.Build();
 
@@ -25,7 +33,7 @@ namespace API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("NuevaPolitica");
             app.UseAuthorization();
 
 
